@@ -17,7 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let window  = UIWindow(frame: UIScreen.main.bounds)
         
-        let navC = UINavigationController(rootViewController: MainViewController())
+        let viewModel = MainTabsViewModel()
+        let vc = MainTabsViewController(viewModel: viewModel)
+        vc.viewModel = viewModel
+        
+        let navC = UINavigationController(rootViewController: vc)
         window.rootViewController = navC
         window.makeKeyAndVisible()
         
