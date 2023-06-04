@@ -13,6 +13,19 @@
 		5960140A2A2B2F390031B293 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014092A2B2F390031B293 /* NetworkConstants.swift */; };
 		5960140C2A2B70230031B293 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960140B2A2B70230031B293 /* NetworkError.swift */; };
 		5960140E2A2B78910031B293 /* MoviesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960140D2A2B78910031B293 /* MoviesApi.swift */; };
+		596014142A2C58C30031B293 /* MainTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014132A2C58C30031B293 /* MainTabsViewController.swift */; };
+		596014182A2C5E070031B293 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014172A2C5E070031B293 /* MainViewModel.swift */; };
+		5960141A2A2C5E250031B293 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014192A2C5E250031B293 /* FavoritesViewModel.swift */; };
+		5960141D2A2C5E4D0031B293 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960141B2A2C5E4D0031B293 /* FavoritesViewController.swift */; };
+		5960141E2A2C5E4D0031B293 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5960141C2A2C5E4D0031B293 /* FavoritesViewController.xib */; };
+		596014212A2C5E610031B293 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960141F2A2C5E610031B293 /* SettingsViewController.swift */; };
+		596014222A2C5E610031B293 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596014202A2C5E610031B293 /* SettingsViewController.xib */; };
+		596014242A2C5E740031B293 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014232A2C5E740031B293 /* SettingsViewModel.swift */; };
+		596014272A2C5EE30031B293 /* MoviesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014262A2C5EE30031B293 /* MoviesSearchViewModel.swift */; };
+		5960142A2A2C5EF00031B293 /* MoviesSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596014282A2C5EF00031B293 /* MoviesSearchViewController.swift */; };
+		5960142B2A2C5EF00031B293 /* MoviesSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596014292A2C5EF00031B293 /* MoviesSearchViewController.xib */; };
+		5960142D2A2C5F120031B293 /* MainTabsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960142C2A2C5F120031B293 /* MainTabsViewModel.swift */; };
+		5960142F2A2C653A0031B293 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960142E2A2C653A0031B293 /* BaseViewModel.swift */; };
 		59E4174D2A266D0500C7B343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4174C2A266D0500C7B343 /* AppDelegate.swift */; };
 		59E417562A266D0800C7B343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E417552A266D0800C7B343 /* Assets.xcassets */; };
 		59E417592A266D0800C7B343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E417572A266D0800C7B343 /* LaunchScreen.storyboard */; };
@@ -25,6 +38,19 @@
 		596014092A2B2F390031B293 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		5960140B2A2B70230031B293 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		5960140D2A2B78910031B293 /* MoviesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesApi.swift; sourceTree = "<group>"; };
+		596014132A2C58C30031B293 /* MainTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabsViewController.swift; sourceTree = "<group>"; };
+		596014172A2C5E070031B293 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		596014192A2C5E250031B293 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		5960141B2A2C5E4D0031B293 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		5960141C2A2C5E4D0031B293 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		5960141F2A2C5E610031B293 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		596014202A2C5E610031B293 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		596014232A2C5E740031B293 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		596014262A2C5EE30031B293 /* MoviesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSearchViewModel.swift; sourceTree = "<group>"; };
+		596014282A2C5EF00031B293 /* MoviesSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSearchViewController.swift; sourceTree = "<group>"; };
+		596014292A2C5EF00031B293 /* MoviesSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesSearchViewController.xib; sourceTree = "<group>"; };
+		5960142C2A2C5F120031B293 /* MainTabsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabsViewModel.swift; sourceTree = "<group>"; };
+		5960142E2A2C653A0031B293 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		59E417492A266D0500C7B343 /* moviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E4174C2A266D0500C7B343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E417552A266D0800C7B343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +72,10 @@
 		591E41A02A267911007256A3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				596014122A2C576B0031B293 /* MainTabs */,
 				591E41A32A26792F007256A3 /* Home */,
+				596014162A2C59200031B293 /* Favorites */,
+				596014152A2C58D60031B293 /* Settings */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -70,6 +99,7 @@
 			children = (
 				591E419C2A2674E8007256A3 /* MainViewController.swift */,
 				591E419D2A2674E8007256A3 /* MainViewController.xib */,
+				596014172A2C5E070031B293 /* MainViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -79,6 +109,7 @@
 			children = (
 				59E417572A266D0800C7B343 /* LaunchScreen.storyboard */,
 				59E4174C2A266D0500C7B343 /* AppDelegate.swift */,
+				5960142E2A2C653A0031B293 /* BaseViewModel.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -134,6 +165,45 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		596014122A2C576B0031B293 /* MainTabs */ = {
+			isa = PBXGroup;
+			children = (
+				596014132A2C58C30031B293 /* MainTabsViewController.swift */,
+				5960142C2A2C5F120031B293 /* MainTabsViewModel.swift */,
+			);
+			path = MainTabs;
+			sourceTree = "<group>";
+		};
+		596014152A2C58D60031B293 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5960141F2A2C5E610031B293 /* SettingsViewController.swift */,
+				596014202A2C5E610031B293 /* SettingsViewController.xib */,
+				596014232A2C5E740031B293 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		596014162A2C59200031B293 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				596014192A2C5E250031B293 /* FavoritesViewModel.swift */,
+				5960141B2A2C5E4D0031B293 /* FavoritesViewController.swift */,
+				5960141C2A2C5E4D0031B293 /* FavoritesViewController.xib */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		596014252A2C5EB90031B293 /* MoviesSearch */ = {
+			isa = PBXGroup;
+			children = (
+				596014262A2C5EE30031B293 /* MoviesSearchViewModel.swift */,
+				596014282A2C5EF00031B293 /* MoviesSearchViewController.swift */,
+				596014292A2C5EF00031B293 /* MoviesSearchViewController.xib */,
+			);
+			path = MoviesSearch;
+			sourceTree = "<group>";
+		};
 		59E417402A266D0400C7B343 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +229,7 @@
 				591E41A22A267925007256A3 /* Models */,
 				591E41A12A26791A007256A3 /* Views */,
 				591E41A02A267911007256A3 /* Modules */,
+				596014252A2C5EB90031B293 /* MoviesSearch */,
 				59E4175A2A266D0800C7B343 /* Info.plist */,
 			);
 			path = moviesApp;
@@ -223,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E417592A266D0800C7B343 /* LaunchScreen.storyboard in Resources */,
+				5960142B2A2C5EF00031B293 /* MoviesSearchViewController.xib in Resources */,
 				591E419F2A2674E8007256A3 /* MainViewController.xib in Resources */,
+				5960141E2A2C5E4D0031B293 /* FavoritesViewController.xib in Resources */,
 				59E417562A266D0800C7B343 /* Assets.xcassets in Resources */,
+				596014222A2C5E610031B293 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,11 +310,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				5960140A2A2B2F390031B293 /* NetworkConstants.swift in Sources */,
+				596014142A2C58C30031B293 /* MainTabsViewController.swift in Sources */,
+				596014212A2C5E610031B293 /* SettingsViewController.swift in Sources */,
 				5960140E2A2B78910031B293 /* MoviesApi.swift in Sources */,
+				5960141A2A2C5E250031B293 /* FavoritesViewModel.swift in Sources */,
+				5960142F2A2C653A0031B293 /* BaseViewModel.swift in Sources */,
+				596014182A2C5E070031B293 /* MainViewModel.swift in Sources */,
 				596014072A2B23C30031B293 /* NetworkManager.swift in Sources */,
+				5960142D2A2C5F120031B293 /* MainTabsViewModel.swift in Sources */,
+				596014272A2C5EE30031B293 /* MoviesSearchViewModel.swift in Sources */,
 				59E4174D2A266D0500C7B343 /* AppDelegate.swift in Sources */,
 				591E419E2A2674E8007256A3 /* MainViewController.swift in Sources */,
+				5960141D2A2C5E4D0031B293 /* FavoritesViewController.swift in Sources */,
 				5960140C2A2B70230031B293 /* NetworkError.swift in Sources */,
+				5960142A2A2C5EF00031B293 /* MoviesSearchViewController.swift in Sources */,
+				596014242A2C5E740031B293 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +470,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,7 +498,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
